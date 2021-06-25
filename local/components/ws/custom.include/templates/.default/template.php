@@ -7,7 +7,7 @@
 
 ?>
 <!-- Верстка включаемой области -->
-<?php if (!empty($arParams)): ?>
+<?php if ($arParams["ACTIVE"] == "Y"): ?>
     <div class="sAbout__col col-lg-6">
         <div class="sAbout__wrap">
             <?php if (!empty($arParams["HEADER"])): ?>

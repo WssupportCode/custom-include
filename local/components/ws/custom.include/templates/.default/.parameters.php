@@ -1,6 +1,10 @@
 <?php if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
 
 $arTemplateParameters = array(
+    "ACTIVE" =>  array(
+        "NAME" =>  GetMessage("ACTIVE"),
+        "TYPE" =>  "STRING",
+    ),
     "HEADER" =>  array(
         "NAME" =>  GetMessage("HEADER"),
         "TYPE" =>  "STRING",
